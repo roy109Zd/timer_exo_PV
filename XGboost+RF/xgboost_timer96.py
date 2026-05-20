@@ -76,7 +76,7 @@ def main():
     # 训练 XGBoost
     print("\n训练 XGBoost 多输出模型 (MSE, 每10轮打印)...")
     model = XGBRegressor(
-        n_estimators=50,
+        n_estimators=500,
         learning_rate=0.05,
         max_depth=5,
         subsample=0.8,
