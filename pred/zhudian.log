@@ -1,0 +1,69 @@
+nohup: ignoring input
+
+处理站点: station00
+  已处理 10000 个预测点
+  已处理 20000 个预测点
+station00  | MAE: 0.1384 | RMSE: 0.2578 | NMAE:0.0250 | NRMSE:0.0467 | R2:0.9598
+  已保存至 /root/timer+exo/pred/zhudian/station00_pointwise_pred_with_nwp.csv
+
+处理站点: station01
+  已处理 10000 个预测点
+  已处理 20000 个预测点
+  已处理 30000 个预测点
+station01  | MAE: 0.6555 | RMSE: 1.1744 | NMAE:0.0328 | NRMSE:0.0587 | R2:0.9553
+  已保存至 /root/timer+exo/pred/zhudian/station01_pointwise_pred_with_nwp.csv
+
+处理站点: station02
+  已处理 10000 个预测点
+  已处理 20000 个预测点
+station02  | MAE: 0.4683 | RMSE: 0.8686 | NMAE:0.0292 | NRMSE:0.0541 | R2:0.9528
+  已保存至 /root/timer+exo/pred/zhudian/station02_pointwise_pred_with_nwp.csv
+
+处理站点: station03
+  已处理 10000 个预测点
+station03  | MAE: 0.5574 | RMSE: 0.9801 | NMAE:0.0320 | NRMSE:0.0563 | R2:0.9618
+  已保存至 /root/timer+exo/pred/zhudian/station03_pointwise_pred_with_nwp.csv
+
+处理站点: station04
+  已处理 10000 个预测点
+  已处理 20000 个预测点
+  已处理 30000 个预测点
+station04  | MAE: 0.8552 | RMSE: 1.5608 | NMAE:0.0319 | NRMSE:0.0583 | R2:0.9482
+  已保存至 /root/timer+exo/pred/zhudian/station04_pointwise_pred_with_nwp.csv
+
+处理站点: station05
+station05  | MAE: 1.1351 | RMSE: 2.0141 | NMAE:0.0323 | NRMSE:0.0574 | R2:0.9577
+  已保存至 /root/timer+exo/pred/zhudian/station05_pointwise_pred_with_nwp.csv
+
+处理站点: station06
+  已处理 10000 个预测点
+  已处理 20000 个预测点
+  已处理 30000 个预测点
+station06  | MAE: 0.2907 | RMSE: 0.5632 | NMAE:0.0248 | NRMSE:0.0480 | R2:0.9543
+  已保存至 /root/timer+exo/pred/zhudian/station06_pointwise_pred_with_nwp.csv
+
+处理站点: station07
+  已处理 10000 个预测点
+  已处理 20000 个预测点
+  已处理 30000 个预测点
+station07  | MAE: 0.4920 | RMSE: 0.8858 | NMAE:0.0285 | NRMSE:0.0513 | R2:0.9535
+  已保存至 /root/timer+exo/pred/zhudian/station07_pointwise_pred_with_nwp.csv
+
+处理站点: station08
+  已处理 10000 个预测点
+  已处理 20000 个预测点
+  已处理 30000 个预测点
+station08  | MAE: 0.5231 | RMSE: 0.9526 | NMAE:0.0293 | NRMSE:0.0533 | R2:0.9541
+  已保存至 /root/timer+exo/pred/zhudian/station08_pointwise_pred_with_nwp.csv
+
+处理站点: station09
+  已处理 10000 个预测点
+  已处理 20000 个预测点
+station09  | MAE: 0.2248 | RMSE: 0.4391 | NMAE:0.0187 | NRMSE:0.0365 | R2:0.9599
+  已保存至 /root/timer+exo/pred/zhudian/station09_pointwise_pred_with_nwp.csv
+
+======================================================================
+总体评估 (所有站点合并):
+Overall     | MAE: 0.4990 | RMSE: 1.0056 | NMAE:0.0142 | NRMSE:0.0286 | R2:0.9574
+
+总体指标已保存至 /root/timer+exo/pred/zhudian/summary_metrics.txt

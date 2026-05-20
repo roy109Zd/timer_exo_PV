@@ -1,0 +1,5 @@
+Overall MAE: 0.4990
+Overall RMSE: 1.0056
+Overall NMAE: 0.0142
+Overall NRMSE: 0.0286
+Overall R2: 0.9574
