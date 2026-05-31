@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Logs and databases
+*.log
+*.csv
+*.sqlite
+*.db
+
+# Models / data
+*.pkl
+*.h5
+*.pt
+*.pth
+*.joblib
+data/
+logs/
+checkpoints/
+
+# Your large / temp directories
+pred_stride=1/
+stride/
+stride1/
+stride_compare/
+timer_change/
+test/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp

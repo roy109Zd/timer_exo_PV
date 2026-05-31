@@ -22,13 +22,14 @@ SEED = 42
 set_seed(SEED)
 
 # ==================== 配置 ====================
-PRED_DIR = "/root/timer+exo/pred"
-STATION = "station01"
+# PRED_DIR = "/root/timer+exo/pred"
+PRED_DIR = "/root/timer+exo/pred_stride=1"
+STATION = "station09"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 BATCH_SIZE = 64
-EPOCHS = 500
+EPOCHS = 100
 PATIENCE = 20
-LR = 1e-4
+LR = 1e-3
 WEIGHT_DECAY = 1e-5
 
 WINDOW = 96
@@ -164,7 +165,7 @@ def main():
         val_loss /= len(val_loader.dataset)
         scheduler.step(val_loss)
 
-        if (epoch+1) % 20 == 0:
+        if (epoch+1) % 50 == 0:
             print(f"Epoch {epoch+1:3d} | Train Loss: {train_loss:.6f} | Val Loss: {val_loss:.6f}")
 
         if val_loss < best_val_loss:

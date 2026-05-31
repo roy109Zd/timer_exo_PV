@@ -8,7 +8,7 @@ warnings.filterwarnings('ignore')
 
 # ==================== 配置 ====================
 PRED_DIR = "/root/timer+exo/pred"
-STATION = "station02"
+STATION = "station00"
 TEST_RATIO = 0.1          # 测试集比例（最后10%）
 VAL_RATIO = 0.1           # 验证集比例（仅用于与XGBoost保持一致划分，RF不使用早停）
 

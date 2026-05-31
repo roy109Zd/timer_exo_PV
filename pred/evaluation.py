@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # 配置
-PRED_DIR = "/root/timer+exo/pred"
+PRED_DIR = "/root/timer+exo/pred_stride=1"
 STATIONS = [f"station{i:02d}" for i in range(10)]   # station00 ~ station09
 OUTPUT_CSV = os.path.join(PRED_DIR, "evaluation_metrics.csv")
 
